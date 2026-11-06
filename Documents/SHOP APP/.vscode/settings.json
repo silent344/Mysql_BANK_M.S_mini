@@ -1,0 +1,28 @@
+{
+  "deno.enablePaths": [
+    "supabase/functions"
+  ],
+  "deno.unstable": true,
+  "typescript.validate.enable": true,
+  "java.configuration.updateBuildConfiguration": "disabled",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.import.gradle.enabled": false,
+  "java.project.importOnFirstTimeStartup": "disabled",
+  "java.autobuild.enabled": false,
+  "gradle.autoDetect": "off",
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/.metadata/**",
+    "**/archetype/**",
+    "**/META-INF/maven/**",
+    "**/packages/flutter_tools/**",
+    "**/development/flutter/**",
+    "**/.dart_tool/**",
+    "**/.pub-cache/**"
+  ],
+  "files.watcherExclude": {
+    "**/packages/flutter_tools/**": true,
+    "**/development/flutter/**": true,
+    "**/.pub-cache/**": true
+  }
+}
